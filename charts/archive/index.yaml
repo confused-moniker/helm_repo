@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  nginx-ingress-controller:
+    - annotations:
+        category: Infrastructure
+      apiVersion: v1
+      appVersion: 0.40.2
+      created: "2020-10-21T08:44:55.429421978Z"
+      description: Chart for the nginx Ingress controller
+      digest: fd0269280ff3c0b42ccfd8f6d6af8337eae49fe10a8b6da4194bab0e58bb8ffb
+      home: https://github.com/bitnami/charts/tree/master/bitnami/nginx-ingress-controller
+      icon: https://bitnami.com/assets/stacks/nginx-ingress-controller/img/nginx-ingress-controller-stack-220x234.png
+      keywords:
+        - ingress
+        - nginx
+        - http
+        - web
+        - www
+        - reverse proxy
+      maintainers:
+        - email: containers@bitnami.com
+          name: Bitnami
+      name: nginx-ingress-controller
+      sources:
+        - https://github.com/bitnami/bitnami-docker-nginx-ingress-controller
+        - https://github.com/kubernetes/ingress-nginx
+      urls:
+        - https://charts.bitnami.com/bitnami/nginx-ingress-controller-5.6.14.tgz
+      version: 5.6.14
